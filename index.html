@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz rekrutacyjny</title>
+</head>
+<body>
+
+<h2>Zaaplikuj się do naszej pracy!</h2>
+
+<form>
+
+    <p><strong>Dane:</strong></p>
+
+    <label>Imię:<br>
+        <input type="text" name="imie">
+    </label><br><br>
+
+    <label>Nazwisko:<br>
+        <input type="text" name="nazwisko">
+    </label><br><br>
+
+    <label>PESEL:<br>
+        <input type="text" name="pesel">
+    </label><br><br>
+
+    <label>Adres:<br>
+        <input type="text" name="adres">
+    </label><br><br>
+
+    <label>Kod pocztowy:<br>
+        <input type="text" name="kod_pocztowy">
+    </label><br><br>
+
+    <label>Nr telefonu:<br>
+        <input type="tel" name="telefon">
+    </label><br><br>
+
+    <label>Wymień swoje kwalifikacje (max. 250 znaków):<br>
+        <textarea name="kwalifikacje" maxlength="250" rows="4" cols="50"></textarea>
+    </label><br><br>
+
+    <label>Czemu powinniśmy Cię wybrać, czym się różnisz od innych (max. 250 znaków):<br>
+        <textarea name="dlaczego_ty" maxlength="250" rows="4" cols="50"></textarea>
+    </label><br><br>
+
+    <p>Wyrażam zgodę na:</p>
+
+    <label>
+        <input type="checkbox" name="rodo"> RODO
+    </label><br>
+
+    <label>
+        <input type="checkbox" name="regulamin"> Przeczytanie regulaminu
+    </label><br>
+
+    <label>
+        <input type="checkbox" name="przetwarzanie"> Przetwarzanie danych
+    </label><br>
+
+    <label>
+        <input type="checkbox" name="wizerunek"> Upowszechnianie mego wizerunku
+    </label><br><br>
+
+    <label>Podpis:<br>
+        <input type="text" name="podpis">
+    </label><br><br>
+
+    <button type="submit">PRZEŚLIJ</button>
+
+</form>
+
+</body>
+</html>
